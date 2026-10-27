@@ -1,2 +1,3 @@
-# sales-tracker-google-sheets1
-Task 8 – Sales Tracker in Google Sheets | Data Analytics Internship
+# Evidence screenshots
+
+Add genuine screenshots after opening the workbook in Google Sheets. Recommended: Summary tab, dropdown validation in Raw Sales, and version history/rollback if performed. Do not add placeholder or fabricated screenshots.

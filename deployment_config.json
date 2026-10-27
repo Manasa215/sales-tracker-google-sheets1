@@ -1,0 +1,41 @@
+{
+  "project": "Sales Tracker in Google Sheets",
+  "version": "1.0.0",
+  "platform": "Google Sheets",
+  "source_workbook": "Sales_Tracker_Template.xlsx",
+  "tabs": {
+    "Raw Sales": "Data entry only; one order per row",
+    "Summary": "Daily, Monday-Sunday weekly, and monthly rollups",
+    "Read Me": "Instructions and formula notes"
+  },
+  "validation_rules": {
+    "Units": "Whole number greater than 0",
+    "Unit Price": "Decimal greater than or equal to 0",
+    "Salesperson": [
+      "Asha",
+      "Rahul",
+      "Meera",
+      "Imran"
+    ],
+    "Category": [
+      "Stationery",
+      "Accessories",
+      "Bags",
+      "Home"
+    ],
+    "Payment Method": [
+      "UPI",
+      "Card",
+      "Cash",
+      "Net Banking"
+    ],
+    "Status": [
+      "Completed",
+      "Pending",
+      "Returned"
+    ]
+  },
+  "formula_policy": "Do not manually edit the Sales Amount formula or Summary formulas.",
+  "backup_policy": "Create a dated copy before major changes and use Google Sheets Version history for rollback.",
+  "deployment_status": "Template prepared; user must upload and verify in Google Sheets before describing it as deployed."
+}
